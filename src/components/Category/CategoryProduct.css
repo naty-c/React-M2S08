@@ -1,0 +1,30 @@
+.card-product {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;    
+    align-items: center;
+    cursor: pointer;
+}
+.card-product-bg {
+    width: 160px;
+    height: 80px;
+    background-color: rgb(243, 246, 243);
+    border-radius: 12px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+p {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
